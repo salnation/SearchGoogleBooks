@@ -14,8 +14,7 @@ const SearchResults = props => {
               authors={book.volumeInfo.authors}
               description={book.volumeInfo.description}
               
-              // description={ book.searchInfo.textSnippet}
-              //image={book.volumeInfo.imageLinks.thumbnail}
+            
               link={book.infoLink}
             >
               <button {...props} name="savebtn" onClick={props.handleSaveBook}>
